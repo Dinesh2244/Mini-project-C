@@ -28,7 +28,7 @@ while(j!=6)
 printf("1. Add book information\n");
 printf("2. Display book information\n");
 printf("3. List all books of given author\n");
-printf("4. Display the location of the specifed book\n");
+printf("4. Display the location of the specified book\n");
 printf("5. List the count of books in personal library\n");
 printf("6. Exit");
 
