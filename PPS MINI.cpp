@@ -72,17 +72,20 @@ break;
 
 case 3:
 printf ("Enter author name : ");
-scanf ("%s",ar_nm);
+fflush(stdin);
+gets(ar_nm);
 for (i=0; i<keepcount; i++)
 {
 if (strcmp(ar_nm, l[i].author) == 0)
-printf ("Book name:%s \t Author: %s",l[i].bk_name,l[i].author);
+printf ("\nBook name:%s \t Author: %s\n",l[i].bk_name,l[i].author);
 }
 break;
 
 case 4:
 printf ("Enter book name : ");
-scanf ("%s",bk_nm);
+
+fflush(stdin);
+gets(bk_nm);
 for (i=0; i<keepcount; i++)
 {
 if (strcmp(bk_nm, l[i].bk_name) == 0)
@@ -93,6 +96,9 @@ break;
 case 5:
 printf("\n No of books in library : %d", keepcount);
 break;
+
+
+
 case 6:
 exit (0); 
 }
