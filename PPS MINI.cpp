@@ -39,7 +39,6 @@ switch (j)
 {
 
 case 1:  
-
 printf ("Enter book name = ");
 fflush(stdin);
 gets(l[i].bk_name);
@@ -96,9 +95,7 @@ break;
 case 5:
 printf("\n No of books in library : %d", keepcount);
 break;
-
-
-
+  
 case 6:
 exit (0); 
 }
