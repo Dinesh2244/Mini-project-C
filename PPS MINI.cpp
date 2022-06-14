@@ -24,7 +24,7 @@ printf("Enter your name (in block letters):");
 scanf("%s",name);
 while(j!=6)
 {
- printf("\n\n***######""  WELCOME to %s's PERSONAL BOOK MANAGMENT SYSTEM  ""#####***\n",name);
+ printf("\n\n***######""  WELCOME to %s's PERSONAL BOOK MANAGEMENT SYSTEM  ""#####***\n",name);
 printf("1. Add book information\n");
 printf("2. Display book information\n");
 printf("3. List all books of given author\n");
